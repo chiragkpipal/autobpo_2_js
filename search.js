@@ -524,7 +524,7 @@ async function generateBidMessage() {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer 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', // Replace with actual API key
+                'Authorization': 'Bearer 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', // Replace with actual API key
             },
             body: JSON.stringify(postData)
         });
