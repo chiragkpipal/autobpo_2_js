@@ -524,7 +524,7 @@ async function generateBidMessage() {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer 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', // Replace with actual API key
+                "Authorization": `Bearer ${OPENAI_API_KEY}`,
             },
             body: JSON.stringify(postData)
         });
